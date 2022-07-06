@@ -1,0 +1,13 @@
+/* Título */
+* {
+    margin: auto;
+    display: block;
+}
+
+/* ================================================================= */
+
+h1 {
+    font-size: 50px !important;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
