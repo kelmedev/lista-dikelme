@@ -9,7 +9,7 @@
     $num2 = $_POST['num2'];
 
     echo "<h1> Resultado: <h1>";
-
+  
     if($num1 > $num2){
         echo "$num1 é maior que $num2!";
     } elseif ($num1 < $num2) {
