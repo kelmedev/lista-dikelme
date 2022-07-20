@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
-<link rel="shortcut icon" href="php/favicon.ico">
+<link rel="shortcut icon" href="pfavicon.ico">
 
 <?php
     //2) Entrar com o lado de um quadrado e imprimir o perímetro e a área.

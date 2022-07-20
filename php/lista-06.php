@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
-<link rel="shortcut icon" href="php/favicon.ico">
+<link rel="shortcut icon" href="favicon.ico">
 
 <?php
     //6) Ler dois números e identificar se são iguais ou diferentes. Caso eles sejam iguais, imprimir uma mensagem dizendo que eles são iguais. Caso sejam diferentes, mostrar uma mensagem dizendo que são diferentes e informar qual número é o maior.

@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
-<link rel="shortcut icon" href="php/favicon.ico">
+<link rel="shortcut icon" href="favicon.ico">
 
 <?php
     //8) Ler três números e informar qual é o maior e qual é o menor dentre os três.

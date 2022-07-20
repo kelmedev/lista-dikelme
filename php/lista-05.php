@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
-<link rel="shortcut icon" href="php/favicon.ico">
+<link rel="shortcut icon" href="favicon.ico">
 
 <?php
     //5) Verificar qual dentre dois números distintos digitados pelo usuário é maior e qual é menor, mostrando isso ao final da execução. Considere que nunca haverá entradas iguais.

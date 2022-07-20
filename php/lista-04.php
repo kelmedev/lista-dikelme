@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
-<link rel="shortcut icon" href="php/favicon.ico">
+<link rel="shortcut icon" href="favicon.ico">
 
 <?php
     //4) Informar se um número digitado pelo usuário é positivo, negativo ou nulo.
