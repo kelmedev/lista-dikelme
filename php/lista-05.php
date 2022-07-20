@@ -12,11 +12,11 @@
     $num2 = $_POST['num2'];
     
     if($num1 > $num2){
-        $resultado = "<p>$num1 é maior que $num2!</p>";
+        $resultado = "<h4>$num1 é maior que $num2.</h4>";
     } elseif ($num1 < $num2) {
-        $resultado = "<p>$num2 é maior que $num1!</p>";
+        $resultado = "<h4>$num2 é maior que $num1.</h4>";
     } else {
-        $resultado = "<p> Os dois números são iguais, então um não pode ser maior que o outro! </p>";
+        $resultado = "<h4> Os dois números são iguais, então um não pode ser maior que o outro. </h4>";
     }
 
     echo 

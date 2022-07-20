@@ -12,13 +12,66 @@
         <link rel="stylesheet" type="text/css" href="php/css/reset.css">  
         <link rel="stylesheet" type="text/css" href="php/css/style.css"> 
         <link rel="stylesheet" type="text/css" href="php/css/forms.css">
-        <!-- =================================================================
-        Códigos em JavaScript -->
-        <script type="text/javascript" src="js/script.js"></script>
+        
     </head>
 
 
     <body> 
+        <div class="container">
+            <div class="header">
+                <h2>Caso de Estudo</h2>
+            </div>
+            <form class="form" id="form">
+    
+                <div class="form-control">
+    
+                    <label for="username" >Nome</label>
+                    <input type="text" id="username">
+                    <i class="img-success" ><img src="./images/success-icon.svg" alt=""></i>
+                    <i class="img-error" ><img src="./images/error-icon.svg" alt=""></i>
+    
+                    <small>Error Message</small>
+    
+                </div>
+    
+                <div class="form-control">
+    
+                    <label>Email</label>
+                    <input type="email" id="email">
+                    <i class="img-success" ><img src="./images/success-icon.svg" alt=""></i>
+                    <i class="img-error" ><img src="./images/error-icon.svg" alt=""></i>
+    
+                    <small>Error Message</small>
+    
+                </div>
+    
+                <div class="form-control">
+    
+                    <label>Senha</label>
+                    <input type="password" id="password">
+                    <i class="img-success" ><img src="./images/success-icon.svg" alt=""></i>
+                    <i class="img-error" ><img src="./images/error-icon.svg" alt=""></i>
+    
+                    <small>Error Message</small>
+    
+                </div>
+    
+                <div class="form-control">
+    
+                    <label>Confirme sua senha</label>
+                    <input type="password" id="password-two">
+                    <i class="img-success" ><img src="./images/success-icon.svg" alt=""></i>
+                    <i class="img-error" ><img src="./images/error-icon.svg" alt=""></i>
+    
+                    <small>Error Message</small>
+    
+                </div>
+    
+                <button type="submit" >ENVIAR</button>
+            </form>
+        </div>
+
+
         <div class="container form-control">
             <h1> Questão 01 </h1>
             <form id="form" name="form" action="php/lista-01.php" method="post">
@@ -26,7 +79,7 @@
                 <label for="num">Digite um número:</label><br>
                 <input type="number" id="num" name="num" value="0" required><br>
 
-                <input id="submit" type="submit" value="Enviar">
+                <input id="submit1" type="submit" value="Enviar">
             </form> 
         </div>
 
@@ -36,10 +89,7 @@
                 <p>Este programa lê o lado de um quadrado e imprime a área e o perímetro.</p>
                 <label for="lado">Digite o valor do lado em centímetros:</label><br>
                 <input type="number" id="lado" name="lado" value="0" required><br>
-
-
-
-                <input id="submit" type="submit" value="Enviar">
+                <input id="submit2" type="submit" value="Enviar">
             </form> 
         </div>
 
@@ -52,7 +102,7 @@
                 <input type="time" id="time" name="tempo" min="00:00" max="23:59" required><br>
 
                 
-                <input id="submit" type="submit" value="Enviar">
+                <input id="submit3" type="submit" value="Enviar">
             </form> 
         </div>
 
@@ -60,10 +110,10 @@
         <div class="container form-control">
             <h1> Questão 04 </h1>
             <form id="form" name="form" action="php/lista-04.php" method="post">
-                <p>Este programa diz se um número real é positivo, negativo ou nulo.</p>
+                <p>Este programa diz se um número é positivo, negativo ou nulo.</p>
                 <label for="num">Digite um número:</label><br>
                 <input type="number" id="num" name="num" value="0" required><br>
-                <input id="submit" type="submit" value="Enviar">
+                <input id="submit4" type="submit" value="Enviar">
             </form> 
         </div>
 
@@ -77,14 +127,102 @@
                 <label for="num2">Digite o 2º número:</label><br>
                 <input type="number" id="num2" name="num2" value="0" required><br>
 
-                <input id="submit" type="submit" value="Enviar">
+                <input id="submit5" type="submit" value="Enviar">
             </form> 
         </div>
 
-    
-    
-            </div>
+        <div class="container form-control">
+            <h1> Questão 06 </h1>
+            <form id="form" name="form" action="php/lista-06.php" method="post">
+                <p>Este programa lê dois números e diz se são iguais ou diferentes.</p>
+                <label for="num1">Digite o 1º  número:</label><br>
+                <input type="number" id="num1" name="num1" value="0" required><br>
+
+                <label for="num2">Digite o 2º número:</label><br>
+                <input type="number" id="num2" name="num2" value="0" required><br>
+
+                <input id="submit6" type="submit" value="Enviar">
+            </form> 
         </div>
+
+        <div class="container form-control">
+            <h1> Questão 07 </h1>
+            <form id="form" name="form" action="php/lista-07.php" method="post">
+                <p>Este programa lê dois números e diz se são iguais ou diferentes.</p>
+                <label for="num1">Digite o 1º  número:</label><br>
+                <input type="number" id="num1" name="num1" value="0" required><br>
+
+                <label for="num2">Digite o 2º número:</label><br>
+                <input type="number" id="num2" name="num2" value="0" required><br>
+
+                <input id="submit7" type="submit" value="Enviar">
+            </form> 
+        </div>
+
+        <div class="container form-control">
+            <h1> Questão 08 </h1>
+            <form id="form8" name="form" action="php/lista-08.php" method="post">
+                <p>Este programa lê três números e diz quem é o maior e o menor dentre os três.</p>
+                <label for="q8num1">Digite o 1º  número:</label><br>
+                <input type="number" id="q8num1" name="q8num1" value="0" required><br>
+
+                <label for="q8num2">Digite o 2º número:</label><br>
+                <input type="number" id="q8num2" name="q8num2" value="0" required><br>
+
+                <label for="q8num3">Digite o 3º número:</label><br>
+                <input type="number" id="q8num3" name="q8num3" value="0" required><br>
+
+                <input id="submit8" type="submit" value="Enviar">
+            </form> 
+        </div>
+
+        <div class="container form-control">
+            <h1> Questão 09 </h1>
+            <form id="form" name="form" action="php/lista-09.php" method="post">
+                <p>Este programa lê dois números e diz se são iguais ou diferentes.</p>
+                <label for="num1">Digite o 1º  número:</label><br>
+                <input type="number" id="num1" name="num1" value="0" required><br>
+
+                <label for="num2">Digite o 2º número:</label><br>
+                <input type="number" id="num2" name="num2" value="0" required><br>
+
+                <input id="submit9" type="submit" value="Enviar">
+            </form> 
+        </div>
+
+        <div class="container form-control">
+            <h1> Questão 10 </h1>
+            <form id="form" name="form" action="php/lista-09.php" method="post">
+                <p>Este programa lê dois números e diz se são iguais ou diferentes.</p>
+                <label for="num1">Digite o 1º  número:</label><br>
+                <input type="number" id="num1" name="num1" value="0" required><br>
+
+                <label for="num2">Digite o 2º número:</label><br>
+                <input type="number" id="num2" name="num2" value="0" required><br>
+
+                <input id="submit10" type="submit" value="Enviar">
+            </form> 
+        </div>
+
+        <div class="container form-control">
+            <h1> Questão 11 </h1>
+            <form id="form" name="form" action="php/lista-09.php" method="post">
+                <p>Este programa lê dois números e diz se são iguais ou diferentes.</p>
+                <label for="num1">Digite o 1º  número:</label><br>
+                <input type="number" id="num1" name="num1" value="0" required><br>
+
+                <label for="num2">Digite o 2º número:</label><br>
+                <input type="number" id="num2" name="num2" value="0" required><br>
+
+                <input id="submit11" type="submit" value="Enviar">
+            </form> 
+        </div>
+    
+          
+        <!-- =================================================================
+        Códigos em JavaScript -->
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- <script type="text/javascript" src="js/lista-08.js"></script> -->  
     </body>
 
 </html>

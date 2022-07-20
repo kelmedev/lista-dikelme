@@ -41,16 +41,16 @@ p {
     color: white;
 }
 
-/* =============================== CONTAINER ================================== */
+/* ============================= CONTAINER ================================= */
 
 div.container {
     max-width: 800px;
-    margin: 50px 0; 
+    margin: 50px 5%; 
     align-items: center;
     justify-content: center;
     flex-direction: column;
     vertical-align: center;
-    padding: 100px;
+    padding: 10%;
     display: flex;
     border: 1px solid rgb(228, 223, 233);
     box-sizing: border-box;
@@ -59,7 +59,7 @@ div.container {
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(3px);
-    min-width: 60%;
+    min-width: 140px;
 }
 
 /* ================================= LABEL =============================== */
