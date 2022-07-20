@@ -1,29 +1,37 @@
-/* Título */
-/* Título */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+
     display: flex;
+    font-family: Poppins;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    border: 0;
     flex-direction: column;
     vertical-align: center;
+   
+    background-image: linear-gradient(to right, rgb(10, 0, 24) , rgb(0, 38, 255));
 }
 
 /* ================================================================= */
 
 h1 {
+    text-transform: uppercase;
     font-size: 50px;
     margin-bottom: 20px;
     font-weight: 700;
     color: white;
 }
 
-/* ================================================================= */
-
-body {
-    
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: linear-gradient(to right, rgb(0, 195, 255) , rgb(0, 38, 255));
-}
 
 /* ================================================================= */
 
@@ -35,7 +43,7 @@ p {
 
 /* =============================== CONTAINER ================================== */
 
-div {
+div.container {
     max-width: 800px;
     margin: 50px 0; 
     align-items: center;
@@ -51,6 +59,7 @@ div {
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(3px);
+    min-width: 60%;
 }
 
 /* ================================= LABEL =============================== */
@@ -64,21 +73,35 @@ label {
 /* ================================ SUBMIT ================================= */
 
 input[type="submit" i] {
-
+    margin: 10px 0;
     border-radius: 3px;
-    background-color: white;
-    color: black;
+    background-color: #000b81;
+    color: white;
     padding: 10px 40px;
     border: 2px solid #00bfff;
     
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 input[type="submit" i]:hover {
 
-    font-size: 12px;
+
     border-radius: 3px;
-    background-color: #00bfff;
+    background-color: #000755;
     color: white;
     border: 2px solid #00bfff; 
+}
+
+/* ================================================================= */
+h4 {
+    font-size: 20px;
+    color: rgb(13, 255, 0);
+    font-family: 'JetBrains Mono';
+}
+
+h3 {
+    margin-top: 30px;
+    font-family: 'JetBrains Mono';
+    color: #fff;
 }

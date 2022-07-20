@@ -1,19 +1,25 @@
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="shortcut icon" href="php/favicon.ico">
+
 <?php
-    //Questão 04
+    //4) Informar se um número digitado pelo usuário é positivo, negativo ou nulo.
+
     $num = 0;
+    $resultado = 0;
     $num = $_POST['num'];
     
-    echo "<h1> Resultado: <h1>";
-    
-    if($num > 0)
-        echo "<h2>O número digitado ($num) é positivo!<h2>";
-    
-        elseif($num == 0)
-            echo "<h2>O número digitado ($num) é nulo!<h2>";
-    
-    elseif($num < 0)
-        echo "<h2>O número digitado ($num) é negativo!<h2>";
+    if($num > 0) {
+        $resultado = "<h4>O número digitado ($num) é positivo!</h4>";
+    } elseif($num == 0) {
+        $resultado = "<h4>O número digitado ($num) é nulo!</h4>";
+    } else
+        $resultado ="<h4>O número digitado ($num) é negativo!</h4>";
 
-    echo "<p> Obrigado por utilizar nosso programa! <p>";
+    echo 
+        "<div class='container'> 
+            <h1>Resultado:</h1>
+            $resultado
+            <h3> Obrigado por utilizar nosso programa! </h3> 
+        </div>";
     
 ?>
