@@ -148,12 +148,15 @@
         <div class="container form-control">
             <h1> Questão 07 </h1>
             <form id="form" name="form" action="php/lista-07.php" method="post">
-                <p>Este programa lê dois números e diz se são iguais ou diferentes.</p>
-                <label for="num1">Digite o 1º  número:</label><br>
-                <input type="number" id="num1" name="num1" value="0" required><br>
+                <p>Este programa lê três números e diz se estes podem ser lados de um triângulo, dizendo a classificação do mesmo.</p>
+                <label for="lado1">Digite o 1º lado:</label><br>
+                <input type="number" id="lado1" name="lado1" value="0" required><br>
 
-                <label for="num2">Digite o 2º número:</label><br>
-                <input type="number" id="num2" name="num2" value="0" required><br>
+                <label for="lado2">Digite o 2º lado:</label><br>
+                <input type="number" id="lado2" name="lado2" value="0" required><br>
+
+                <label for="lado3">Digite o 3º lado:</label><br>
+                <input type="number" id="lado3" name="lado3" value="0" required><br>
 
                 <input id="submit7" type="submit" value="Enviar">
             </form> 
@@ -179,12 +182,22 @@
         <div class="container form-control">
             <h1> Questão 09 </h1>
             <form id="form" name="form" action="php/lista-09.php" method="post">
-                <p>Este programa lê dois números e diz se são iguais ou diferentes.</p>
+                <p>Este programa lê dois números e realiza as 4 operações básicas da matemática.</p>
                 <label for="num1">Digite o 1º  número:</label><br>
                 <input type="number" id="num1" name="num1" value="0" required><br>
 
                 <label for="num2">Digite o 2º número:</label><br>
                 <input type="number" id="num2" name="num2" value="0" required><br>
+
+                <p>Escolha uma operação abaixo:</p>
+                <input type="radio" id="sum" name="option" value="sum">
+                <label for="sum">Soma</label><br>
+                <input type="radio" id="subtract" name="option" value="subtract">
+                <label for="subtract">Subtração</label><br>
+                <input type="radio" id="multiplicate" name="option" value="multiplicate">
+                <label for="multiplicate">Multiplicação</label>
+                <input type="radio" id="divide" name="option" value="divide">
+                <label for="divide">Dividir</label>
 
                 <input id="submit9" type="submit" value="Enviar">
             </form> 
