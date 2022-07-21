@@ -10,10 +10,10 @@ form.addEventListener('submit', (e) => {
    
     if(num1Value === num2Value) {
         e.preventDefault()
-        checkInputs()
+        
     }
 
-    
+    checkInputs()
 })
 
 function checkInputs() {
