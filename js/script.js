@@ -3,19 +3,23 @@ const form = document.getElementById('q12form')
 const num1 = document.getElementById('q12num1')
 const num2 = document.getElementById('q12num2')
 
-form.addEventListener('submit', (e) => {
-    e.preventDefault()
-    
-    checkInputs()
 
+form.addEventListener('submit', (e) => {
+    const num1Value = num1.value.trim()
+    const num2Value = num2.value.trim()
+   
+    if(num1Value === num2Value) {
+        e.preventDefault()
+        checkInputs()
+    }
+
+    
 })
 
 function checkInputs() {
 
-
     const num1Value = num1.value.trim()
     const num2Value = num2.value.trim()
-
    
     if(num1Value === '') {
         // mostrar erro
@@ -39,8 +43,9 @@ function checkInputs() {
     } else {
         // adicionar a classe de sucesso
         setSuccessFor(num2)
+        
     }
-    
+
 }
 
 function setErrorFor(input, message) {
