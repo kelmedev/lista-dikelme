@@ -24,17 +24,17 @@
     }
 
     echo "<h1>Resultado:</h1>";
-    echo "<h4$menor"
+    echo "<h4>($menor1)</h4>";
     while ($menor2 < $maior2) {
         $menor2 = $menor2 + 1;
         echo "<h4> ($menor2) </h4>";
     }
-
-
+  
+    echo "<br><h4>($maior1)</h4>";
     while ($maior1 > $menor1) {
     
         $maior1 = $maior1 - 1;
-        echo "<br><h4> ($maior1) </h4>";
+        echo "<h4> ($maior1) </h4>";
     }
     echo "<h3> Obrigado por utilizar nosso programa! </h3>"
 
