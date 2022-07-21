@@ -119,3 +119,19 @@ input[type="submit" i]:hover {
     background-color: #584ff5;
     transition: 0.3s;
 }
+
+section#radio {
+    display: inline;
+    margin: auto;
+    flex-direction: row;
+    -ms-flex-align: baseline;
+    flex-wrap: row;
+    vertical-align: baseline;
+    position: relative;
+}
+
+input[type="radio" i] {
+    display: inline;
+    height: 12px;
+    width: 12px;
+}

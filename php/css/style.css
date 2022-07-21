@@ -72,7 +72,7 @@ label {
 
 /* ================================ SUBMIT ================================= */
 
-input[type="submit" i] {
+.styled-button, input[type="submit" i] {
     margin: 10px 0;
     border-radius: 3px;
     background-color: #000b81;
@@ -84,7 +84,7 @@ input[type="submit" i] {
     font-weight: 600;
 }
 
-input[type="submit" i]:hover {
+.styled-button:hover, input[type="submit" i]:hover {
 
 
     border-radius: 3px;
@@ -92,6 +92,8 @@ input[type="submit" i]:hover {
     color: white;
     border: 2px solid #00bfff; 
 }
+
+
 
 /* ================================================================= */
 h4 {
